@@ -1,0 +1,139 @@
+/* CSS Document */
+
+/*************************************************************
+     Color Scheme                    Font Scheme
+#778A8C - Grey            font-family: 'Ubuntu', sans-serif; 
+#11181E - Black           font-family: 'Quattrocento', serif;
+#E4F2EA - White           font-family: 'Bowlby One SC', cursive;
+#734F2F - Dark Brown
+#A68160 - Light Brown
+*************************************************************/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E4F2EA;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+
+/* Zeroing out spacing *********************/
+h1, h2, h3, h4, h5, h6, ul, li, a, blockquote {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bowlby One SC', cursive; 
+}
+
+/****** Header Section ********************/
+header {
+    background-color: #734F2F;
+    min-height: 250px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 10em;
+    margin-top: -.2em;
+    margin-bottom: -.6em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #E4F2EA;
+    text-align: center;
+    text-shadow: /*Adds FULL Drop Shadow around text */
+        3px 3px 5px #11181E,
+        -2px -2px 5px #11181E,
+        2px -2px 5px #11181E,
+        -2px 2px 5px #11181E,
+        2px 2px 5px #11181E;
+}
+
+.firstE {
+    color: #A68160;
+}
+
+.letterG {
+    color: #E4F2EA;
+}
+
+.lastE {
+    color: #A68160;
+}
+
+.hNav {
+    padding: 5px 0;
+    background: #A68160 ;
+}
+
+.hNav ul {
+    display: block;
+    padding-left: 150px;
+}
+
+.hNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.hNav a {
+    color:#E4F2EA;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+.hNav a:hover {
+    color: #734F2F;
+    text-decoration: underline;
+}
+
+/****** Main Section **********************/
+main {
+    width: 60%;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+}
+
+.puppy {
+    border-radius: 40px 0 40px 0;
+}
+/****** Footer Section ********************/
+footer {
+    background-color: #11181E;
+    height: 150px;
+}
+
+footer nav ul {
+    display: block;
+    float: right;
+}
+
+footer nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+}
+
+footer nav ul li a {
+    color: #E4F2EA;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+    
+footer nav ul li a:hover {
+    color: #A68160;
+    text-decoration: underline;
+}
+
+footer p {
+    clear: right;
+    float: right;
+    color: #E4F2EA;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+    margin-right: 50px;
+}
+    

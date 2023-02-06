@@ -1,0 +1,310 @@
+/* CSS Document */
+
+/* 
+    Author: Nicholas Newton
+    Date: 01/25/2022
+    File NameL styles.css
+*/
+
+/*
+SELECTOR {
+    PROPERTY: value;
+    PROPERTY: value;
+    PROPERTY: value;
+}
+
+font-family: 'Francois One', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+/* CSS Reset Code */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+body {
+  background-color: #000;
+ /* property:       Value; */
+}
+
+img {
+  /* width: 100%; */ /* imahes will be displayed at full size */
+  display: block;
+}
+
+/* Style rules for mobile viewport */
+header {
+	top: 0;
+	background-color: #000;
+	height: 190px;
+}
+
+header img {
+	margin: 0 auto; /* This Centers the element in the viewport */
+}
+
+/* End Style rules for mobile viewport */
+
+
+
+/* Style rule for navigation area */
+nav {
+    padding: 1%;
+	marging-bottom: 1%;
+}
+
+/* Compound selector */
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  font-size: 1.5em;
+  font-family: 'Francois One', sans-serif;
+  border-top: 1px solid #fff;
+  color: #fff;
+}
+
+nav li:first-child {   /* pseudo-class */
+	border-top: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+/* Style rule for main content */
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+	font-family: 'Roboto Slab', Serif;
+}
+
+.tel-link {
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.hours {
+	margin-left: 10%;
+}
+
+.tel-link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+
+.frame {
+	position: relative;
+	max-width: 425px;
+	margin: 2% auto;
+}
+
+#weights, #cardio, #training {
+  margin: 0 2%;
+}
+
+.round {
+	border-radius: 8px;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+	
+	/* Tablet Viewport: show tablet-desktop class, hide mobile class */
+	.tablet-desktop {
+		display: block;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	/* Tablet Viewport: Style Rule for Header */
+	header {
+		poistion: static;
+		padding-bottom: 2%;
+	}
+	
+	/* Tablet Viewport: Style Rules for nav area */
+	nav li {
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	
+	nav li:last-child {
+		border-right: none;
+	}
+	
+	nav li a {
+		padding: 0.1em 0.75em;
+	}
+	
+	/* Tablet Viewport: Style Rules For main COnent area */
+	main ul {
+		margin: 0 0 4% 10%;
+	}
+	
+	#exercises {
+ 		 clear: left;
+  		border-top: 1px solid #000;
+  		border-bottom: 1px solid #000;
+		background: linear-gradient(45deg, #ccc, #fff);
+  		background-color: #f2f2f2; /* 0-9 a-f */
+  		padding: 1% 2%;
+}
+
+	#exercises dt {
+  		font-weight: bold;
+}
+
+	#exercises dd {
+  		padding: 0.5% 1% 2% 0;
+}
+	
+	.tel-link {
+		font-size: 1.25em;
+	}
+	
+	.map {
+		width: 600px;
+		heihgt: 450px;
+	}
+	
+} /* Close Tablet Viewport Query */
+
+/*Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+	
+	/* Desktop Viewport: Style rule for header */
+	header {
+		width: 25%;
+		float: left;
+		padding-bottom: 0;
+	}
+	
+	/* Desktop Viewpoty: Style rules for nav area */
+	nav {
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+	}
+	
+	nav ul {
+		text-align: right;
+	}
+	
+	nav li {
+		border: none;
+	}
+	
+	nav li a {
+		padding: 0.5em 1em;
+	}
+	
+	nav li a:hover {
+		color: black;
+		background-color: #fff;
+	}
+	
+	/* Desktop Viewport: Style Rules for Main Conent */
+	main {
+		clear: left;
+	}
+	
+	main h1 {
+		font-size: 1.8em;
+	}
+	
+	#weights, #cardio, #training {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	
+	
+} /* Close Desktop Viewport Query */
+
+/* Media Query for large desktop Viewports */
+@media Screen and (min-width: 1921px), print {
+	
+	#container {
+		max-width: 1920px;
+		margin: 0 auto;
+	}
+	
+} /* Close large Desktop Viewports */
+
+/* Media Query for Printing */
+@media print {
+	
+	body {
+		background-color: white;
+		color: black;
+	}
+	
+	
+} /* Close Print Quey */
+
+
+.exterbak-link {
+  color: #666600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact .contact-email-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Style rules for footer content */
+footer p {
+  font-size: 0.75em;
+  text-algn: center;
+  color: #fff;
+  padding: 0 1em;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+

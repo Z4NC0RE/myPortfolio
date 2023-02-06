@@ -1,0 +1,155 @@
+<!doctype html>
+<!-- This website template was created by: David Wells -->
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fitness Equitment - Personal Training | Forward Fitness Club</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Forwar Fitness Club has state-fo-the-art fitnss equipment and provides personal training">
+	
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+	<!-- Favicon Links start -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	<!-- Faivcon Links End -->
+
+</head>
+
+<body>
+	
+	<div id="container">
+		<!-- Use the header area for the website name or logo -->
+		
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onClick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+		
+		<header id="ffc-logo">
+			<a href="index.html">
+			<img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo">
+				</a>
+		</header>
+
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav class="tablet-desktop">
+			<ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="about.html">About Us</a></li> 
+        <li><a href="classes.html">Classes</a></li> 
+        <li><a href="nutrition.html">Nutrition</a></li> 
+        <li><a href="contact.html">Contact Us</a></li>  
+			</ul>
+		</nav>
+
+		<!-- Use the main area to add the main content to the webpage -->
+	<main>
+      <section id="weights">
+        <h1>Weights</h1>
+        
+        <img src="images/people-with-weights.jpg" alt="Two people working out with weights in each" class="round">
+        
+        <p>Our facillity includes a weight training area with several weight options. Build leam muscle wiht weights and improbe core with weight training.</p>
+        
+        <ul	 class="tablet-desktop">
+          <li>Dumbells</li>
+          <li>Kettle bells</li>
+          <li>Barbells</li>
+        </ul>
+      </section>
+      
+      <section id="cardio">
+        <h1>cardio</h1>
+        
+        <img src="images/people-workingout-machines.jpg" alt="Cardio Equipment" class="round">
+        
+        <p>Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. we have several equipment choices for your workout.</p>
+        
+        <ul	 class="tablet-desktop">
+          <li>Tredmills</li>
+          <li>Elliptical Machines</li>
+          <li>Exercise Bikes</li>
+        </ul>
+      </section>
+      
+      <section id="training">
+        <h1>Personal Training</h1>
+        
+        <img src="images/personal-trainer.jpg" alt="Personal Training" class="round">
+        
+        <p>Our Certified personal trainers work wiht you to help you obtain your fitness goals and track your progress. Personal training hs many benefits</p>
+        
+        <ul	 class="tablet-desktop">
+          <li>Accountability</li>
+          <li>Personalized Programs</li>
+          <li>Consistant Support and Motivation</li>
+        </ul>
+       </section>
+      
+      <section id="exercises" class="tablet-desktop">
+        <h1>Common Exercises</h1>
+        
+        <p>The following are common exercises that we encourage our clients to do as part of their daily exercise routine.</p>
+        
+        <dl>
+          <dt>Burpee</dt>
+          <dd>Burpee are great, fully body exercise to increaser your strength and endurance. Begin in           a standing position, drop into a squat and raise your hands forward, kick your feet back then           forwarn again quickly, and then jump up from a squated position.<span class="viewex" onClick="burpees()"> View Example.</span></dd>
+          
+          <dt>Plank</dt>
+          <dd>Planks build your core strength. To perform a plank, get in a pushup position and rest             your forearms on the floor. Hold the postition as long as you can.<span class="viewex" onClick="plank()"> View Example.</span></dd>
+          
+          <dt>Mountain Climber</dt>
+          <dd>Mountian Climbers are a great cardio exercise. Place your hands on the floor in a pushup           position, then bring one knee up to your chest and then switch as quickly as you can (as               though you are climbing a mountain).<span class="viewex" onClick="mountain()"> View Example.</span></dd>
+        </dl>
+		  
+		<video controls id="example">
+			<source id="vid-src" src="media/burpees.mp4" type="video/mp4">
+			<track id="despsrc" src="des" kind="descriptions" srclang="en" label="english descriptions">
+			<p>Your browser does not support the video element.</p>
+		</video>
+        
+        <p>For more information about how to stay active, visit <a class="external-link" href="https://www.hhs.gov/fitness/beactive/index.html" target="_blank">Fitness.gov</a>.</p>
+      </section>
+     
+	</main>
+
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<div class="copyright">
+			<p>&copy; Copyright 2022. All rights Reserved.</p>
+				<p></p>
+			<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+			</div>
+			
+			<div class="social">
+				
+				<a href="https://www.facebook.com/fwdfitclub" target="_blank">
+					<img src="images/facebook-logo.png" alt="black and white facebook logo">
+				</a>
+				
+				<a href="https://www.twitter.com/fwfitclub" target="_blank">
+					<img src="images/twitter-logo.png" alt="black and white twitter logo">
+				</a>
+				
+			</div>
+		</footer>
+	</div><!-- ID = Container -->
+	
+	 <script src="scripts/script.js"></script>
+	
+</body>
+</html>
