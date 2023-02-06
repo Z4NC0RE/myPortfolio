@@ -1,0 +1,66 @@
+/* CSS Document */
+@supports (grid-area: auto) {
+    
+	@media screen and (min-width:500px) {
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 30% 30% 30%;
+			grid-template-areas: 
+				"item1 item2 item3"
+				"item4 item5 item6"
+				"item7 item8 item9";
+			justify-content: center;
+			grid-gap: 1% 1%;
+		}
+		#item1 {
+			grid-area: item1;
+			background-color: #FC0004;
+			min-width: 30%;
+			min-height: 400px;
+		}
+		#item2 {
+			grid-area: item2;
+			background-color: #069000;
+			min-height: 400px;
+		}
+		#item3 {
+			grid-area: item3;
+			background-color: #FC0004;
+			min-height: 400px;	
+		}
+		#item4 {
+			grid-area: item4;
+			background-color: #069000;
+			min-height: 400px;	
+		}
+		#item5 {
+			grid-area: item5;
+			background-color: #FC0004;
+			min-height: 400px;
+			
+		}
+		#item6 {
+			grid-area: item6;
+			background-color: #069000;
+			min-height: 400px;
+			
+		}
+		#item7 {
+			grid-area: item7;
+			background-color: #Fc0004;
+			min-height: 400px;
+			
+		}
+		#item8 {
+			grid-area: item8;
+			background-color: #069000;
+			min-height: 400px;
+			
+		}
+		#item9 {
+			grid-area: item9;
+			background-color: #fc0004;
+			min-height: 400px;	
+		}
+	}

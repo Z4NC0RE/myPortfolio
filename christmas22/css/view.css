@@ -1,0 +1,97 @@
+/* CSS Document */
+
+/* Style rules for mobile viewport. */
+@media screen and (max-width: 619px) {
+body {
+display: block;
+}
+/* Style rules to show mobile class and hide tab-desk class. */
+.mobile {
+display: block;
+padding: 2%;
+text-align: center;
+}
+
+.mobile-tablet {
+
+}
+
+.tab-desk {
+display: none;
+}
+
+.desktop {
+display: none;
+}
+
+.mobile h1  {
+font-family: 'Emblema One', cursive;
+margin: 2% 0 0 3%;
+}
+}
+/* Style rules for navigation area */
+
+nav {
+background-color: red;
+}
+
+
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: aliceblue;
+    padding: 2%;
+}
+.nav-icon div {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+}
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 620px),print {
+/* Tablet Viewport: Style rules for nav area */
+body {
+display: block;
+}
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+
+.tab-desk {
+display: block;
+}
+
+.mobile {
+display: none;
+}
+
+.mobile-nav {
+display: none;
+}
+}
+
+/* Media Query for Desktop Viewport */
+
+@media screen and (min-width: 1000px), print {
+
+/* Desktop Viewport: Show desktop class, hide mobile-tablet class */
+
+.desktop {
+display: block;
+}
+
+.mobile-tablet {
+display: none;
+}
+}
