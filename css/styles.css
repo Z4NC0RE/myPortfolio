@@ -71,15 +71,18 @@ main {
 }
 
 #item1 {
-    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg)
+    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
+    min-height: 250px;
 }
 
 #item2 {
-    background-image: url(../project2/images/snow.jpg)
+    background-image: url(../christmas22/images/snow.jpg);
+    min-height: 250px;
 }
 
 #item3 {
-    background-image: url(../project3/)
+    background-image: url(../forwardFitness/images/forward-fitness-logo.png);
+    min-height: 250px;
 }
 
 footer {
