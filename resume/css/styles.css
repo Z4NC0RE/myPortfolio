@@ -59,7 +59,7 @@ header h3 {
 }
 
 main {
-	color: aliceblue;
+	color: navy;
 }
 
 #container {
@@ -67,18 +67,6 @@ main {
 	margin: 0 auto;
 	width: 80%;
 	background-color: navy;
-}
-
-#item1 {
-    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg)
-}
-
-#item2 {
-    background-image: url(../project2/images/snow.jpg)
-}
-
-#item3 {
-    background-image: url(../project3/)
 }
 
 footer {
