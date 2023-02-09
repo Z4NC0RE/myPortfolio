@@ -27,6 +27,10 @@ header h3 {
     margin-left: 43%
 }
 
+header img {
+	float: right;
+}
+
 .hnav {
     padding: 5px 0;
     width: 100%;

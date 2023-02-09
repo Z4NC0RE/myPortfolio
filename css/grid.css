@@ -1,0 +1,36 @@
+@supports (grid-area: auto) {
+    
+	@media screen and (min-width:500px) {
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 30% 30% 30%;
+			grid-template-areas: 
+				"item1 item2 item3"
+                "item4";
+            justify-content: center;
+            grid-gap: 1% 1%;
+            }
+            #item1 {
+                grid-area: item1;
+                background-color: green;
+                min-width: 20%;
+                min-height: 400px;
+            }
+            #item2 {
+                grid-area: item2;
+                background-color: grey;
+                min-height: 400px;
+            }
+            #item3 {
+                grid-area: item3;
+                background-color: green;
+                min-height: 400px;	
+            }
+            #item4 {
+                grid-area: item2;
+                background-color: grey;
+                min-height: 400px;
+            }
+        }
+    }
