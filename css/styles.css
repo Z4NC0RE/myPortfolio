@@ -67,6 +67,7 @@ main {
 	margin: 0 auto;
 	width: 80%;
 	background-color: navy;
+    min-height: 500px;
 }
 
 #item1 {
