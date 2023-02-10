@@ -97,11 +97,12 @@ main img {
 	color: navy;
 }
 
-.cssGrid a {
+.cssGrid h2 a {
 	color: navy;
 	background-color: aliceblue;
 	padding: 10px;
 	margin: 10px;
+	
 	border-radius: 10px;
 	text-align: center;
 }
