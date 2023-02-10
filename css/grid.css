@@ -1,10 +1,10 @@
 @supports (grid-area: auto) {
     
-	@media screen and (min-width:200px) {
+	@media screen and (min-width:150px) {
 		.cssGrid {
 			display: grid;
 			width: 100%;
-			grid-template-columns: 30% 30% 30%;
+			grid-template-columns: 25% 25% 25%;
 			grid-template-areas: 
 				"item1 item2 item3";
             justify-content: center;
@@ -23,6 +23,7 @@
             #item3 {
                 grid-area: item3;
                 min-width: 30%;
+                background-color: black;
                 min-height: 200px;	
             }
         }
