@@ -101,13 +101,8 @@ main img {
 
 #item1 {
     background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
-    min-height: 200px;
-	margin: 200px;
-	padding: 50px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 10px;
-	margin: 10px;
 	border-radius: 5px;
 }
 
@@ -119,13 +114,8 @@ main img {
 
 #item2 {
     background-image: url(../christmas22/images/snow.jpg);
-    min-height: 250px;
-	margin: 200px;
-	padding: 50px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 10px;
-	margin: 10px;
 	border-radius: 5px;
 }
 
@@ -137,13 +127,8 @@ main img {
 
 #item3 {
     background-image: url(../forwardFitness/images/forward-fitness-logo.png);
-    min-height: 250px;
-	margin: 200px;
-	padding: 50px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 10px;
-	margin: 10px;
 	border-radius: 5px;
 }
 
