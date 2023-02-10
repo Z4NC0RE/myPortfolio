@@ -13,23 +13,22 @@
             }
             #item1 {
                 grid-area: item1;
-                background-color: green;
                 min-width: 30%;
                 min-height: 200px;
             }
             #item2 {
                 grid-area: item2;
-                background-color: grey;
+                min-width: 30%;
                 min-height: 200px;
             }
             #item3 {
                 grid-area: item3;
-                background-color: green;
+                min-width: 30%;
                 min-height: 200px;	
             }
             #item4 {
                 grid-area: item2;
-                background-color: grey;
+                min-width: 30%;
                 min-height: 200px;
             }
         }
