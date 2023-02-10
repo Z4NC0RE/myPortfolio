@@ -72,6 +72,14 @@ main img {
 	float: center;
 }
 
+
+.who {
+	background-color: black;
+	color: aliceblue;
+	min-height: 150px;
+	width: 100%;
+}
+
 .about {
 	background-color: navy;
 	color: aliceblue;
@@ -79,11 +87,9 @@ main img {
 	width: 100%;
 }
 
-.who {
-	background-color: black;
+.about p {
+	font-size: 1.5em;
 	color: aliceblue;
-	min-height: 150px;
-	width: 100%;
 }
 
 .cssGrid {
