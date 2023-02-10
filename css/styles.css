@@ -120,7 +120,7 @@ p {
 	background-color: aliceblue;
 	padding: 10px;
 	margin: 10px;
-	
+	font-size: 1.5em;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -174,9 +174,8 @@ p {
 	font-weight: bold;
 	font-size: 2em;
 }
+.resume a {
 
-.resume p {
-	font-size: 2.5em;
 }
 
 button {
@@ -185,7 +184,7 @@ button {
 	padding: 15px;
 	margin: 15px;
 	border-radius: 10px;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
 }
