@@ -13,6 +13,8 @@ body {
 header {
     background-color: navy;
 	color: aliceblue;
+	min-height: 500px;
+	width: 100%;
 }
 
 header h1 {
@@ -22,9 +24,9 @@ header h1 {
 }
 
 header h3 {
-    font-size: 2em;
+    font-size: .5em;
     font-weight: bold;
-    margin-left: 43%
+    margin-left: 55%
 }
 
 header img {
@@ -66,6 +68,11 @@ main {
 	color: aliceblue;
 }
 
+.who {
+	background-color: black;
+	color: aliceblue;
+}
+
 #container {
 	padding: 2%;
 	margin: 0 auto;
@@ -87,6 +94,16 @@ main {
 #item3 {
     background-image: url(../forwardFitness/images/forward-fitness-logo.png);
     min-height: 250px;
+}
+
+.resume {
+	background-color: black;
+	color: aliceblue;
+}
+
+button {
+	background-color: aliceblue;
+	color: navy;
 }
 
 footer {
