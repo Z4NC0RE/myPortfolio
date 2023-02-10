@@ -90,7 +90,7 @@ main img {
 	padding: 2%;
 	margin: 0 auto;
 	width: 80%;
-	background-color: navy;
+	background-color: black;
     min-height: 300px;
 }
 
@@ -154,7 +154,7 @@ main img {
 }
 
 .resume {
-	background-color: black;
+	background-color: navy;
 	color: aliceblue;
 }
 
@@ -176,7 +176,7 @@ button:hover {
 }
 
 footer {
-    background-color: navy;
+    background-color: black;
 	color: aliceblue;
 }
 
