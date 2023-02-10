@@ -88,7 +88,6 @@ main img {
 
 .cssGrid {
 	display: center;
-	max-width: 80%;
 	color: navy;
 }
 
@@ -98,6 +97,7 @@ main img {
 	padding: 10px;
 	margin: 10px;
 	border-radius: 10px;
+	text-align: center;
 }
 
 #item1 {
