@@ -91,7 +91,7 @@ main img {
 	margin: 0 auto;
 	width: 80%;
 	background-color: navy;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .cssGrid {
@@ -101,13 +101,19 @@ main img {
 
 #item1 {
     background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
-    min-height: 250px;
+    min-height: 200px;
 	margin: 200px;
 	padding: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
 }
 
 #item1:hover {
-	color: red;
+	color: aliceblue;
+	background-color: black;
 	text-decoration: underline;
 }
 
@@ -116,10 +122,16 @@ main img {
     min-height: 250px;
 	margin: 200px;
 	padding: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
 }
 
 #item2:hover {
-	color: red;
+	color: aliceblue;
+	background-color: black;
 	text-decoration: underline;
 }
 
@@ -128,10 +140,16 @@ main img {
     min-height: 250px;
 	margin: 200px;
 	padding: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
 }
 
 #item3:hover {
-	color: red;
+	color: aliceblue;
+	background-color: black;
 	text-decoration: underline;
 }
 
@@ -143,9 +161,12 @@ main img {
 button {
 	background-color: aliceblue;
 	color: navy;
-	padding: 30px;
+	padding: 15px;
 	margin: 15px;
 	border-radius: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 button:hover {
