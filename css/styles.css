@@ -15,6 +15,7 @@ header {
 	color: aliceblue;
 	min-height: 300px;
 	width: 100%;
+	font-family: 'Noto Serif', serif;
 }
 
 header h1 {
@@ -66,6 +67,7 @@ header img {
 
 main {
 	color: aliceblue;
+	font-family: 'Noto Serif', serif;
 }
 
 main img {
@@ -102,6 +104,8 @@ p {
 
 .pastCode {
 	font-size: 2.5em;
+	background-color: aliceblue;
+	color: navy;
 }
 
 .cssGrid {
@@ -190,6 +194,7 @@ button:hover {
 }
 
 footer {
+	font-family: 'Noto Serif', serif;
     background-color: black;
 	color: aliceblue;
 }
