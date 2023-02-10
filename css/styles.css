@@ -15,19 +15,21 @@ header {
 	color: aliceblue;
 	min-height: 300px;
 	width: 100%;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Shrikhand', cursive;
 }
 
 header h1 {
     font-size: 5em;
     font-weight: bold;
 	margin-left: 25%;
+	font-family: 'Shrikhand', cursive;
 }
 
 header h3 {
     font-size: 1.5em;
     font-weight: bold;
-    margin-left: 35%
+    margin-left: 35%;
+	font-family: 'Shrikhand', cursive;
 }
 
 header img {
@@ -75,12 +77,12 @@ main img {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 }
 
 p {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 .who {
@@ -98,12 +100,12 @@ p {
 }
 
 .about p {
-	font-size: 2.5em;
+	font-size: 2em;
 	color: aliceblue;
 }
 
 .pastCode {
-	font-size: 2.5em;
+	font-size: 2em;
 	background-color: aliceblue;
 	color: navy;
 }
@@ -165,6 +167,7 @@ p {
 .resume {
 	background-color: navy;
 	color: aliceblue;
+	font-size: 2em;
 }
 
 .resume h2 {
