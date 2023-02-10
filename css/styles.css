@@ -102,8 +102,8 @@ main img {
 #item1 {
     background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
     min-height: 250px;
-	margin: 30px;
-	padding: 50px;
+	margin: 100px;
+	padding: 150px;
 }
 
 #item1:hover {
@@ -113,8 +113,8 @@ main img {
 #item2 {
     background-image: url(../christmas22/images/snow.jpg);
     min-height: 250px;
-	margin: 30px;
-	padding: 50px;
+	margin: 100px;
+	padding: 150px;
 }
 
 #item2:hover {
@@ -124,8 +124,8 @@ main img {
 #item3 {
     background-image: url(../forwardFitness/images/forward-fitness-logo.png);
     min-height: 250px;
-	margin: 30px;
-	padding: 50px;
+	margin: 100px;
+	padding: 150px;
 }
 
 #item3:hover {
@@ -140,6 +140,8 @@ main img {
 button {
 	background-color: aliceblue;
 	color: navy;
+	padding: 30px;
+	margin: 15px;
 }
 
 button:hover {
