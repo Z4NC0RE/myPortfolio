@@ -102,34 +102,37 @@ main img {
 #item1 {
     background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
     min-height: 250px;
-	margin: 100px;
-	padding: 150px;
+	margin: 200px;
+	padding: 50px;
 }
 
 #item1:hover {
 	color: red;
+	text-decoration: underline;
 }
 
 #item2 {
     background-image: url(../christmas22/images/snow.jpg);
     min-height: 250px;
-	margin: 100px;
-	padding: 150px;
+	margin: 200px;
+	padding: 50px;
 }
 
 #item2:hover {
 	color: red;
+	text-decoration: underline;
 }
 
 #item3 {
     background-image: url(../forwardFitness/images/forward-fitness-logo.png);
     min-height: 250px;
-	margin: 100px;
-	padding: 150px;
+	margin: 200px;
+	padding: 50px;
 }
 
 #item3:hover {
 	color: red;
+	text-decoration: underline;
 }
 
 .resume {
@@ -142,10 +145,13 @@ button {
 	color: navy;
 	padding: 30px;
 	margin: 15px;
+	border-radius: 10px;
 }
 
 button:hover {
-	background-color: yellow;
+	background-color: navy;
+	color: black;
+	text-decoration: underline;
 }
 
 footer {
