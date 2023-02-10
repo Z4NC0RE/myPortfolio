@@ -148,8 +148,8 @@ button {
 }
 
 button:hover {
-	background-color: navy;
-	color: black;
+	background-color: black;
+	color: aliceblue;
 	text-decoration: underline;
 }
 
