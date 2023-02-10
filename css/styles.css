@@ -86,17 +86,10 @@ main img {
 	width: 100%;
 }
 
-#container {
-	padding: 2%;
-	margin: 0 auto;
-	width: 80%;
-	background-color: black;
-    min-height: 300px;
-}
-
 .cssGrid {
 	display: center;
 	max-width: 80%;
+	color: navy;
 }
 
 #item1 {
