@@ -20,13 +20,13 @@ header {
 header h1 {
     font-size: 5em;
     font-weight: bold;
-	margin-left: 35%;
+	margin-left: 25%;
 }
 
 header h3 {
     font-size: 1.5em;
     font-weight: bold;
-    margin-left: 40%
+    margin-left: 30%
 }
 
 header img {
@@ -76,12 +76,14 @@ main img {
 	background-color: navy;
 	color: aliceblue;
 	min-height: 150px;
+	width: 100%;
 }
 
 .who {
 	background-color: black;
 	color: aliceblue;
 	min-height: 150px;
+	width: 100%;
 }
 
 #container {
@@ -90,6 +92,11 @@ main img {
 	width: 80%;
 	background-color: navy;
     min-height: 500px;
+}
+
+.cssGrid {
+	display: center;
+	max-width: 80%;
 }
 
 #item1 {
