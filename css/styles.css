@@ -26,7 +26,7 @@ header h1 {
 header h3 {
     font-size: 1.5em;
     font-weight: bold;
-    margin-left: 30%
+    margin-left: 35%
 }
 
 header img {
@@ -104,14 +104,26 @@ main img {
     min-height: 250px;
 }
 
+#item1:hover {
+	color: red;
+}
+
 #item2 {
     background-image: url(../christmas22/images/snow.jpg);
     min-height: 250px;
 }
 
+#item3:hover {
+	color: red;
+}
+
 #item3 {
     background-image: url(../forwardFitness/images/forward-fitness-logo.png);
     min-height: 250px;
+}
+
+#item3:hover {
+	color: red;
 }
 
 .resume {
@@ -122,6 +134,10 @@ main img {
 button {
 	background-color: aliceblue;
 	color: navy;
+}
+
+button:hover {
+	background-color: yellow;
 }
 
 footer {
