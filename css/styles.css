@@ -92,6 +92,14 @@ main img {
 	color: navy;
 }
 
+.cssGrid ul li a {
+	color: navy;
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
 #item1 {
     background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
 	font-weight: bold;
