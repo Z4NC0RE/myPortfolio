@@ -72,6 +72,14 @@ main img {
 	float: center;
 }
 
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 3em;
+}
 
 .who {
 	background-color: black;
