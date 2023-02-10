@@ -88,14 +88,14 @@ p {
 .who {
 	background-color: black;
 	color: aliceblue;
-	min-height: 150px;
+	min-height: 200px;
 	width: 100%;
 }
 
 .about {
 	background-color: navy;
 	color: aliceblue;
-	min-height: 150px;
+	min-height: 200px;
 	width: 100%;
 }
 
