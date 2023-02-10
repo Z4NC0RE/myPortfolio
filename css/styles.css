@@ -13,18 +13,18 @@ body {
 header {
     background-color: navy;
 	color: aliceblue;
-	min-height: 500px;
+	min-height: 300px;
 	width: 100%;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 5em;
     font-weight: bold;
 	margin-left: 40%;
 }
 
 header h3 {
-    font-size: .5em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-left: 55%
 }
@@ -66,6 +66,10 @@ header img {
 
 main {
 	color: aliceblue;
+}
+
+main img {
+	float: center;
 }
 
 .who {
