@@ -1,6 +1,6 @@
 @supports (grid-area: auto) {
     
-	@media screen and (min-width:300px) {
+	@media screen and (min-width:200px) {
 		.cssGrid {
 			display: grid;
 			width: 100%;
