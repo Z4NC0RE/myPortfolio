@@ -9,6 +9,7 @@ body {
 }
 
 .hnav {
+	display: inline-block;
     padding: 5px 0;
     width: 100%;
     background-color: aliceblue;
@@ -91,18 +92,6 @@ footer {
 	color: aliceblue;
 }
 
-footer h1 {
-    font-size: 2em;
-    font-weight: bold;
-	margin-left: 40%;
-}
-
-footer h3 {
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 43%
-}
-
 .fnav {
     padding: 5px 0;
     width: 100%;
@@ -131,6 +120,18 @@ footer h3 {
 .fnav ul li:hover {
 	background-color: aliceblue;
 	color: navy;
+}
+
+footer h1 {
+    font-size: 2em;
+    font-weight: bold;
+	margin-left: 40%;
+}
+
+footer h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 43%
 }
 
 footer h4, footer h5, footer h6 {
