@@ -76,12 +76,17 @@ main {
 	color: navy;
 }
 
+.education {
+	background-color: navy;
+	color: aliceblue;
+}
+
 .skills {
 	background-color: aliceblue;
 	color: navy;
 }
 
-.education {
+.experience {
 	background-color: navy;
 	color: aliceblue;
 }
