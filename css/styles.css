@@ -10,6 +10,37 @@ body {
     background-color: aliceblue;
 }
 
+.hnav {
+    padding: 5px 0;
+    width: 100%;
+    background-color: aliceblue;
+	color: black;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	margin-top: .8%;
+}
+
+.hnav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.hnav ul li:hover {
+	background-color: aliceblue;
+	color: navy;
+	text-decoration: underline;
+}
+
 header {
     background-color: navy;
 	color: aliceblue;
@@ -36,36 +67,7 @@ header img {
 	float: right;
 }
 
-.hnav {
-    padding: 5px 0;
-    width: 100%;
-    background-color: navy;
-	color: aliceblue;
-}
 
-.hnav ul {
-	display: block;
-	text-align: center;
-}
-
-.hnav ul li {
-	display: inline-block;
-	list-style: none;
-	width: 15%;
-	margin-top: .8%;
-}
-
-.hnav a {
-	color: black;
-	text-decoration: none;
-	font-size: 1.5em;
-}
-
-.hnav ul li:hover {
-	background-color: aliceblue;
-	color: navy;
-	text-decoration: underline;
-}
 
 main {
 	color: aliceblue;
