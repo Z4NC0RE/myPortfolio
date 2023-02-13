@@ -36,8 +36,8 @@ body {
 }
 
 .hnav ul li:hover {
-	background-color: aliceblue;
-	color: navy;
+	background-color: navy;
+	color: aliceblue;
 	text-decoration: underline;
 }
 
@@ -215,8 +215,8 @@ footer h3 {
 .fnav {
     padding: 5px 0;
     width: 100%;
-    background-color: navy;
-	color: aliceblue;
+    background-color: aliceblue;
+	color: black;
 }
 
 .fnav ul {
@@ -232,14 +232,15 @@ footer h3 {
 }
 
 .fnav a {
-	color: aliceblue;
+	color: black;
 	text-decoration: none;
 	font-size: 1.5em;
 }
 
 .fnav ul li:hover {
-	background-color: aliceblue;
-	color: navy;
+	background-color: navy;
+	color: aliceblue;
+	text-decoration: underline;
 }
 
 footer h4, footer h5, footer h6 {
