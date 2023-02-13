@@ -72,23 +72,23 @@ main {
 }
 
 .objective {
-	background-color: navy;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: navy;
 }
 
 .education {
-	background-color: aliceblue;
-	color: navy;
+	background-color: navy;
+	color: aliceblue;
 }
 
 .skills {
-	background-color: navy;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: navy;
 }
 
 .education {
-	background-color: aliceblue;
-	color: navy;
+	background-color: navy;
+	color: aliceblue;
 }
 
 h2 {
