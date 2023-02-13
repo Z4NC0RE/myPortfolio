@@ -92,18 +92,21 @@ main {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
+	font-family: 'Noto Serif', serif;
 }
 
 p {
 	font-size: 2em;
+	font-family: 'Noto Serif', serif;
 }
 
 footer {
 	font-family: 'Noto Serif', serif;
     background-color: black;
 	color: aliceblue;
+	font-family: 'Noto Serif', serif;
 }
 
 .fnav {
@@ -111,6 +114,7 @@ footer {
     width: 100%;
     background-color: navy;
 	color: aliceblue;
+	font-family: 'Noto Serif', serif;
 }
 
 .fnav ul {
@@ -140,15 +144,18 @@ footer h1 {
     font-size: 2em;
     font-weight: bold;
 	margin-left: 40%;
+	font-family: 'Noto Serif', serif;
 }
 
 footer h3 {
     font-size: 2em;
     font-weight: bold;
-    margin-left: 43%
+    margin-left: 43%;
+	font-family: 'Noto Serif', serif;
 }
 
 footer h4, footer h5, footer h6 {
 	text-align: center;
 	color: aliceblue;
+	font-family: 'Noto Serif', serif;
 }
