@@ -15,6 +15,7 @@ body {
     width: 100%;
     background-color: aliceblue;
 	color: black;
+	font-family: 'Shrikhand', cursive;
 }
 
 .hnav ul {
@@ -36,8 +37,8 @@ body {
 }
 
 .hnav ul li:hover {
-	background-color: navy;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: black;
 	text-decoration: underline;
 }
 

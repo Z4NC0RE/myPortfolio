@@ -112,9 +112,9 @@ footer {
 .fnav {
     padding: 5px 0;
     width: 100%;
-    background-color: navy;
-	color: aliceblue;
-	font-family: 'Noto Serif', serif;
+    background-color: aliceblue;
+	color: black;
+	font-family: 'Shrikhand', cursive;
 }
 
 .fnav ul {
@@ -130,14 +130,15 @@ footer {
 }
 
 .fnav a {
-	color: aliceblue;
+	color: black;
 	text-decoration: none;
 	font-size: 1.5em;
 }
 
 .fnav ul li:hover {
 	background-color: aliceblue;
-	color: navy;
+	color: black;
+	text-decoration: underline;
 }
 
 footer h1 {
