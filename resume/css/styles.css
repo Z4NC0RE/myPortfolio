@@ -66,15 +66,29 @@ header img {
 	float: right;
 }
 
-
-
 main {
 	color: aliceblue;
 	font-family: 'Noto Serif', serif;
 }
 
-main img {
-	float: center;
+.objective {
+	background-color: navy;
+	color: aliceblue;
+}
+
+.education {
+	background-color: aliceblue;
+	color: navy;
+}
+
+.skills {
+	background-color: navy;
+	color: aliceblue;
+}
+
+.education {
+	background-color: aliceblue;
+	color: navy;
 }
 
 h2 {
