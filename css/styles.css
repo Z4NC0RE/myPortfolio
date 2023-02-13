@@ -128,12 +128,15 @@ p {
 	text-align: center;
 }
 
-.cssGrid button {
+#item1 {
+    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.beaglebtn {
 	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
   	background-color: white;
   	color: black;
   	font-size: 16px;
@@ -141,13 +144,6 @@ p {
   	border: none;
   	cursor: pointer;
   	border-radius: 5px;
-}
-
-#item1 {
-    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 5px;
 }
 
 #item1:hover {
@@ -163,6 +159,17 @@ p {
 	border-radius: 5px;
 }
 
+.christbtn {
+	position: absolute;
+  	background-color: white;
+  	color: black;
+  	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
 #item2:hover {
 	color: aliceblue;
 	background-color: black;
@@ -174,6 +181,17 @@ p {
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 5px;
+}
+
+.forwardbtn {
+	position: absolute;
+  	background-color: white;
+  	color: black;
+  	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
 }
 
 #item3:hover {
