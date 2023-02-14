@@ -146,6 +146,10 @@ p {
   	border-radius: 5px;
 }
 
+.beaglebtn:hover {
+	background-color: navy;
+}
+
 #item1:hover {
 	color: aliceblue;
 	background-color: navy;
@@ -168,6 +172,10 @@ p {
   	border: none;
   	cursor: pointer;
   	border-radius: 5px;
+}
+
+.christbtn:hover {
+	background-color: navy;
 }
 
 #item2:hover {
