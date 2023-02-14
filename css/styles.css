@@ -165,8 +165,8 @@ p {
 
 .christbtn {
 	position: absolute;
-  	background-color: black;
-  	color: aliceblue;
+  	background-color: aliceblue;
+  	color: black;
   	font-size: 16px;
   	padding: 12px 24px;
   	border: none;
