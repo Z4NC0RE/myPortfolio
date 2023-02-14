@@ -102,6 +102,10 @@ p {
 	font-family: 'Noto Serif', serif;
 }
 
+main ul li {
+	font-size: 1.5em;
+}
+
 footer {
 	font-family: 'Noto Serif', serif;
     background-color: black;
