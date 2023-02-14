@@ -194,9 +194,13 @@ p {
   	border-radius: 5px;
 }
 
+.fowradbtn:hover {
+	background-color: navy;
+}
+
 #item3:hover {
 	color: aliceblue;
-	background-color: navy;
+	background-color: black;
 	text-decoration: underline;
 }
 
