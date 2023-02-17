@@ -148,10 +148,10 @@ p {
 .resume button a {
 	background-color: aliceblue;
 	color: navy;
-	padding: 40px;
+	padding: 30px;
 	margin: 10px;
 	border-radius: 8px;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;
 }
