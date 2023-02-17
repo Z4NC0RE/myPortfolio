@@ -127,7 +127,7 @@ p {
 	text-decoration: none;
 }
 
-.pastCode button:hover {
+.pastCode button a:hover {
 	background-color: navy;
 	color: aliceblue;
 	text-decoration: underline;
