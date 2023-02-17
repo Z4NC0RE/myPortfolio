@@ -119,6 +119,12 @@ button {
 	color: aliceblue;
 	text-decoration: none;
 	display: center;
+	padding: 12px;
+	margin: 10px;
+	border-radius: 8px;
+	font-size: .5em;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 button :hover {
