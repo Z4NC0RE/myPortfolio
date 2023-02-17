@@ -118,11 +118,11 @@ p {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: none;
-	display: center;
+	float: inherit;
 	padding: 50px;
 	margin: 10px;
 	border-radius: 8px;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -151,7 +151,7 @@ p {
 	padding: 50px;
 	margin: 10px;
 	border-radius: 8px;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;
 }
