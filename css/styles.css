@@ -114,7 +114,7 @@ p {
 	min-height: 150px
 }
 
-button {
+.pastCode button {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: none;
@@ -127,7 +127,7 @@ button {
 	text-decoration: none;
 }
 
-button:hover {
+.pastCode button:hover {
 	background-color: navy;
 	color: aliceblue;
 	text-decoration: underline;
@@ -156,7 +156,7 @@ resume button {
 	text-decoration: none;
 }
 
-button:hover {
+resume button:hover {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: underline;
