@@ -147,8 +147,9 @@ p {
 
 .resume button a {
 	background-color: aliceblue;
+	text-decoration: none;
 	color: navy;
-	padding: 50px;
+	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: 2em;
