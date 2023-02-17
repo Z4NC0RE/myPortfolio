@@ -145,18 +145,18 @@ p {
 	font-size: 2em;
 }
 
-.resume button {
+.resume button a {
 	background-color: aliceblue;
 	color: navy;
 	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.resume button:hover {
+.resume button a:hover {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: underline;
