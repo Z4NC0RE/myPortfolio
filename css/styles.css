@@ -119,7 +119,7 @@ p {
 	color: aliceblue;
 	text-decoration: none;
 	display: center;
-	padding: 12px;
+	padding: 20px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: .5em;
@@ -148,7 +148,7 @@ p {
 resume button {
 	background-color: aliceblue;
 	color: navy;
-	padding: 12px;
+	padding: 20px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: .5em;
