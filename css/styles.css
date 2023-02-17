@@ -145,7 +145,7 @@ p {
 	font-size: 2em;
 }
 
-resume button {
+.resume button {
 	background-color: aliceblue;
 	color: navy;
 	padding: 50px;
@@ -156,7 +156,7 @@ resume button {
 	text-decoration: none;
 }
 
-resume button:hover {
+.resume button:hover {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: underline;
