@@ -127,7 +127,7 @@ button {
 	text-decoration: none;
 }
 
-button :hover {
+button:hover {
 	background-color: navy;
 	color: aliceblue;
 	text-decoration: underline;
