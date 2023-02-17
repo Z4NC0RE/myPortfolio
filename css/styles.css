@@ -119,7 +119,7 @@ p {
 	color: aliceblue;
 	text-decoration: none;
 	float: inherit;
-	padding: 50px;
+	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: 1.5em;
@@ -148,7 +148,7 @@ p {
 .resume button {
 	background-color: aliceblue;
 	color: navy;
-	padding: 50px;
+	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: 1.5em;
