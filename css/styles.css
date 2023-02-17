@@ -118,9 +118,15 @@ button {
 	background-color: black;
 	color: aliceblue;
 	text-decoration: none;
+	display: center;
 }
 
-button:hover {
+button a {
+	color: aliceblue;
+	background-color: black
+}
+
+button a:hover {
 	background-color: navy;
 	color: aliceblue;
 	text-decoration: underline;
