@@ -114,19 +114,16 @@ p {
 	min-height: 150px
 }
 
-.cssGrid {
-	display: center;
-	color: navy;
+button {
+	background-color: black;
+	color: aliceblue;
+	text-decoration: none;
 }
 
-.cssGrid h2 a {
-	color: black;
-	background-color: aliceblue;
-	padding: 10px;
-	margin: 10px;
-	font-size: .5em;
-	border-radius: 10px;
-	text-align: center;
+button:hover {
+	background-color: navy;
+	color: aliceblue;
+	text-decoration: underline;
 }
 
 #item1 {
