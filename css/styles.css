@@ -126,93 +126,9 @@ button a {
 	background-color: black
 }
 
-button a:hover {
+button :hover {
 	background-color: navy;
 	color: aliceblue;
-	text-decoration: underline;
-}
-
-#item1 {
-    background-image: url(../beagles/images/beaglesJuniors/images/newsletter_Beagle.jpg);
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 5px;
-}
-
-.beaglebtn {
-	position: absolute;
-  	background-color: white;
-  	color: black;
-  	font-size: 16px;
-  	padding: 12px 24px;
-  	border: none;
-  	cursor: pointer;
-  	border-radius: 5px;
-}
-
-.beaglebtn:hover {
-	background-color: navy;
-}
-
-#item1:hover {
-	color: aliceblue;
-	background-color: navy;
-	text-decoration: underline;
-}
-
-#item2 {
-    background-image: url(../christmas22/images/snow.jpg);
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 5px;
-}
-
-.christbtn {
-	position: absolute;
-  	background-color: aliceblue;
-  	color: black;
-  	font-size: 16px;
-  	padding: 12px 24px;
-  	border: none;
-  	cursor: pointer;
-  	border-radius: 5px;
-}
-
-.christbtn:hover {
-	background-color: navy;
-}
-
-#item2:hover {
-	color: aliceblue;
-	background-color: navy;
-	text-decoration: underline;
-}
-
-#item3 {
-    background-image: url(../forwardFitness/images/forward-fitness-logo.png);
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 5px;
-}
-
-.forwardbtn {
-	position: absolute;
-  	background-color: white;
-  	color: black;
-  	font-size: 16px;
-  	padding: 12px 24px;
-  	border: none;
-  	cursor: pointer;
-  	border-radius: 5px;
-}
-
-.forwardbtn:hover {
-	background-color: navy;
-}
-
-#item3:hover {
-	color: aliceblue;
-	background-color: black;
 	text-decoration: underline;
 }
 
