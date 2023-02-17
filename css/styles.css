@@ -121,11 +121,6 @@ button {
 	display: center;
 }
 
-button a {
-	color: aliceblue;
-	background-color: black
-}
-
 button :hover {
 	background-color: navy;
 	color: aliceblue;
@@ -144,7 +139,7 @@ button :hover {
 	font-size: 2em;
 }
 
-button {
+resume button {
 	background-color: aliceblue;
 	color: navy;
 	padding: 12px;
