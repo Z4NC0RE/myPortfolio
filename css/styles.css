@@ -104,6 +104,10 @@ p {
 	text-shadow: 7px 7px 6px aliceblue;
 }
 
+.who p {
+	width: 80%;
+}
+
 .about {
 	background-color: aliceblue;
 	color: black;
@@ -181,7 +185,7 @@ p {
 	background-color: black;
 	color: orange;
 	text-decoration: underline;
-	text-shadow: 7px 7px 6px black;
+	text-shadow: 7px 7px 6px aliceblue;
 }
 
 footer {
