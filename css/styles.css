@@ -144,16 +144,20 @@ p {
 	min-height: 200px;
 }
 
+.pastCode button {
+	background-color: aliceblue;
+}
+
 .pastCode h2 {
 	text-shadow: 7px 7px 6px black;
 	color: aliceblue;
 }
 
 .pastCode button a {
-	background-color: orange;
+	background-color: black;
 	text-decoration: none;
-	color: black;
-	padding: 40px;
+	color: orange;
+	padding: 35px;
 	margin: 10px;
 	border-radius: 8px;
 	font-size: 1.5em;
@@ -162,7 +166,7 @@ p {
 }
 
 .pastCode button:hover {
-	background-color: aliceblue;
+	background-color: orange;
 	color: black;
 	text-decoration: underline;
 	text-shadow: 7px 7px 6px black;
@@ -179,6 +183,10 @@ p {
 	font-size: 1.2em;
 	text-shadow: 7px 7px 6px black;
 	color: black;
+}
+
+.resume button {
+	background-color: aliceblue;
 }
 
 .resume button a {
