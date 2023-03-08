@@ -40,6 +40,10 @@ body {
 	font-family: 'Shrikhand', cursive;
 }
 
+.hnav ul li:hover {
+	background-color: black;
+}
+
 .hnav ul li a:hover {
 	background-color: black;
 	color: orange;
@@ -152,7 +156,7 @@ p {
 	text-decoration: none;
 }
 
-.pastCode button a:hover {
+.pastCode button:hover {
 	background-color: aliceblue;
 	color: black;
 	text-decoration: underline;
@@ -184,7 +188,7 @@ p {
 	text-decoration: none;
 }
 
-.resume button a:hover {
+.resume button:hover {
 	background-color: orange;
 	color: black;
 	text-decoration: underline;
@@ -233,6 +237,10 @@ footer h3 {
 	color: black;
 	text-decoration: none;
 	font-size: 1.5em;
+}
+
+.fnav ul li:hover {
+	background-color: black;
 }
 
 .fnav ul li a:hover {
