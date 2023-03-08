@@ -165,7 +165,7 @@ p {
 	text-decoration: none;
 }
 
-.pastCode button:hover {
+.pastCode button a:hover {
 	background-color: orange;
 	color: black;
 	text-decoration: underline;
@@ -201,7 +201,7 @@ p {
 	text-decoration: none;
 }
 
-.resume button:hover {
+.resume button a:hover {
 	background-color: orange;
 	color: black;
 	text-decoration: underline;
