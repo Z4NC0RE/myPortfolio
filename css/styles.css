@@ -40,7 +40,7 @@ body {
 	font-family: 'Shrikhand', cursive;
 }
 
-.hnav ul li:hover {
+.hnav ul li a:hover {
 	background-color: black;
 	color: orange;
 	text-decoration: underline;
@@ -235,7 +235,7 @@ footer h3 {
 	font-size: 1.5em;
 }
 
-.fnav ul li:hover {
+.fnav ul li a:hover {
 	background-color: black;
 	color: orange;
 	text-decoration: underline;
