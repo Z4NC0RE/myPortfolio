@@ -100,6 +100,10 @@ p {
 	width: 100%;
 }
 
+.who h2 {
+	text-shadow: 7px 7px 6px aliceblue;
+}
+
 .about {
 	background-color: aliceblue;
 	color: black;
@@ -107,18 +111,25 @@ p {
 	width: 100%;
 }
 
+.about h2 {
+	text-shadow: 7px 7px 6px black;
+}
+
 .about p {
 	font-size: 2em;
-	background-color: black;
 	color: aliceblue;
 	min-height: 150px;
 }
 
 .pastCode {
-	font-size: 2em;
+	font-size: 1.5em;
 	background-color: aliceblue;
 	color: black;
-	min-height: 150px
+	min-height: 150px;
+}
+
+.pastCode h2 {
+	text-shadow: 7px 7px 6px black;
 }
 
 .pastCode button a {
@@ -142,14 +153,15 @@ p {
 
 .resume {
 	background-color: black;
-	color: orange;
+	color: aliceblue;
 	font-size: 2em;
 	height: 200px;
 }
 
 .resume h2 {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.2em;
+	text-shadow: 7px 7px 6px aliceblue;
 }
 
 .resume button a {
