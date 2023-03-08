@@ -14,7 +14,7 @@ body {
 	display: inline-block;
     padding: 5px 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: orange;
 	color: black;
 	font-family: 'Shrikhand', cursive;
 	position:fixed;
@@ -41,14 +41,14 @@ body {
 }
 
 .hnav ul li:hover {
-	background-color: aliceblue;
-	color: navy;
+	background-color: black;
+	color: aliceblue;
 	text-decoration: underline;
 }
 
 header {
-    background-color: navy;
-	color: aliceblue;
+    background-color: black;
+	color: orange;
 	min-height: 300px;
 	width: 100%;
 	font-family: 'Shrikhand', cursive;
@@ -73,7 +73,7 @@ header img {
 }
 
 main {
-	color: aliceblue;
+	color: black;
 	font-family: 'Noto Serif', serif;
 }
 
@@ -98,27 +98,28 @@ p {
 }
 
 .about {
-	background-color: navy;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: black;
 	min-height: 300px;
 	width: 100%;
 }
 
 .about p {
 	font-size: 2em;
+	background-color: black;
 	color: aliceblue;
 }
 
 .pastCode {
 	font-size: 2em;
 	background-color: aliceblue;
-	color: navy;
+	color: black;
 	min-height: 150px
 }
 
 .pastCode button a {
 	background-color: black;
-	color: aliceblue;
+	color: orange;
 	text-decoration: none;
 	float: inherit;
 	padding: 40px;
@@ -130,14 +131,14 @@ p {
 }
 
 .pastCode button a:hover {
-	background-color: navy;
-	color: aliceblue;
+	background-color: orange;
+	color: black;
 	text-decoration: underline;
 }
 
 .resume {
-	background-color: navy;
-	color: aliceblue;
+	background-color: black;
+	color: orange;
 	font-size: 2em;
 	height: 200px;
 }
@@ -150,18 +151,18 @@ p {
 .resume button a {
 	background-color: aliceblue;
 	text-decoration: none;
-	color: navy;
+	color: orange;
 	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .resume button a:hover {
 	background-color: black;
-	color: aliceblue;
+	color: orange;
 	text-decoration: underline;
 }
 
