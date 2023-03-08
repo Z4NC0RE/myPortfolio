@@ -112,6 +112,7 @@ p {
 	width: 80%;
 	font-size: 2em;
 	text-align: center;
+	float: inherit;
 }
 
 .about {
