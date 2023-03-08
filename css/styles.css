@@ -42,7 +42,7 @@ body {
 
 .hnav ul li:hover {
 	background-color: black;
-	color: aliceblue;
+	color: orange;
 	text-decoration: underline;
 }
 
@@ -106,6 +106,8 @@ p {
 
 .who p {
 	width: 80%;
+	font-size: 2em;
+	text-align: center;
 }
 
 .about {
@@ -123,22 +125,24 @@ p {
 	font-size: 2em;
 	color: black;
 	min-height: 150px;
+	width: 80%;
+	text-align: center;
 }
 
 .pastCode {
 	font-size: 1.5em;
-	background-color: aliceblue;
-	color: black;
+	background-color: black;
+	color: aliceblue;
 	min-height: 150px;
 }
 
 .pastCode h2 {
-	text-shadow: 7px 7px 6px black;
+	text-shadow: 7px 7px 6px aliceblue;
 }
 
 .pastCode button a {
-	background-color: black;
-	color: orange;
+	background-color: aliceblue;
+	color: black;
 	text-decoration: none;
 	float: inherit;
 	padding: 40px;
@@ -157,8 +161,8 @@ p {
 }
 
 .resume {
-	background-color: black;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: black;
 	font-size: 2em;
 	height: 200px;
 }
@@ -166,11 +170,11 @@ p {
 .resume h2 {
 	font-weight: bold;
 	font-size: 1.2em;
-	text-shadow: 7px 7px 6px aliceblue;
+	text-shadow: 7px 7px 6px black;
 }
 
 .resume button a {
-	background-color: aliceblue;
+	background-color: black;
 	text-decoration: none;
 	color: orange;
 	padding: 40px;
@@ -182,10 +186,10 @@ p {
 }
 
 .resume button a:hover {
-	background-color: black;
-	color: orange;
+	background-color: orange;
+	color: black;
 	text-decoration: underline;
-	text-shadow: 7px 7px 6px aliceblue;
+	text-shadow: 7px 7px 6px black;
 }
 
 footer {
@@ -209,7 +213,7 @@ footer h3 {
 .fnav {
     padding: 5px 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: orange;
 	color: black;
 	font-family: 'Shrikhand', cursive;
 }
@@ -233,8 +237,8 @@ footer h3 {
 }
 
 .fnav ul li:hover {
-	background-color: aliceblue;
-	color: black;
+	background-color: black;
+	color: orange;
 	text-decoration: underline;
 }
 
