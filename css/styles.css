@@ -132,19 +132,18 @@ p {
 .pastCode {
 	font-size: 1.5em;
 	background-color: black;
-	color: aliceblue;
-	min-height: 150px;
+	min-height: 200px;
 }
 
 .pastCode h2 {
 	text-shadow: 7px 7px 6px aliceblue;
+	color: aliceblue;
 }
 
 .pastCode button a {
-	background-color: aliceblue;
-	color: black;
+	background-color: orange;
 	text-decoration: none;
-	float: inherit;
+	color: black;
 	padding: 40px;
 	margin: 10px;
 	border-radius: 8px;
@@ -154,7 +153,7 @@ p {
 }
 
 .pastCode button a:hover {
-	background-color: orange;
+	background-color: aliceblue;
 	color: black;
 	text-decoration: underline;
 	text-shadow: 7px 7px 6px black;
@@ -162,7 +161,6 @@ p {
 
 .resume {
 	background-color: aliceblue;
-	color: black;
 	font-size: 2em;
 	height: 200px;
 }
@@ -171,6 +169,7 @@ p {
 	font-weight: bold;
 	font-size: 1.2em;
 	text-shadow: 7px 7px 6px black;
+	color: black;
 }
 
 .resume button a {
