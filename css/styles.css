@@ -80,6 +80,7 @@ header img {
 
 main {
 	color: black;
+	background-color: orange;
 	font-family: 'Noto Serif', serif;
 }
 
@@ -98,21 +99,20 @@ p {
 }
 
 .who {
-	background-color: black;
-	color: aliceblue;
+	background-color: aliceblue;
+	color: black;
 	min-height: 300px;
 	width: 100%;
 }
 
 .who h2 {
-	text-shadow: 7px 7px 6px aliceblue;
+	text-shadow: 7px 7px 6px black;
 }
 
 .who p {
 	width: 80%;
 	font-size: 2em;
 	text-align: center;
-	float: inherit;
 }
 
 .about {
@@ -136,12 +136,12 @@ p {
 
 .pastCode {
 	font-size: 1.5em;
-	background-color: black;
+	background-color: aliceblue;
 	min-height: 200px;
 }
 
 .pastCode h2 {
-	text-shadow: 7px 7px 6px aliceblue;
+	text-shadow: 7px 7px 6px black;
 	color: aliceblue;
 }
 
