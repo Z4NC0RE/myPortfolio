@@ -42,6 +42,7 @@ body {
 
 .hnav ul li:hover {
 	background-color: black;
+	color: orange;
 }
 
 .hnav ul li a:hover {
@@ -254,6 +255,7 @@ footer h3 {
 
 .fnav ul li:hover {
 	background-color: black;
+	color: orange;
 }
 
 .fnav ul li a:hover {
